@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# [LIVE DEMO](https://alea-test-2e8yj8uqj.now.sh/login)
+# [LIVE DEMO](https://alea-test-5r1k32wjz.now.sh/login)
 
 ## Decisions
 ### First: How to start
