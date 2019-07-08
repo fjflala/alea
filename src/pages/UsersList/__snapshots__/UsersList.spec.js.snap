@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UsersList /> should correctly render 1`] = `
+Array [
+  <header
+    className="ui-header"
+  >
+    <figure>
+      <img
+        alt="Alea"
+        src="https://www.alea.com/wp-content/themes/alea/library/images/logo-alea.svg"
+      />
+    </figure>
+  </header>,
+  <section
+    className="users-list"
+  >
+    <header
+      className="users-list__header"
+    >
+      <h1>
+        Users
+      </h1>
+      <a
+        className="ui-button ui-button--primary users-list__button"
+        href="/users/create"
+        onClick={[Function]}
+      >
+        Create User
+      </a>
+    </header>
+    <div
+      className="ui-card users-list__table-container"
+    >
+      <table
+        className="users-list__table"
+      >
+        <thead>
+          <tr>
+            <th>
+              Avatar
+            </th>
+            <th>
+              Email
+            </th>
+            <th>
+              Name
+            </th>
+            <th>
+              Actions
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img
+                alt="dan@abramov.net"
+                className="users-list__avatar"
+                src="image"
+              />
+            </td>
+            <td>
+              dan@abramov.net
+            </td>
+            <td>
+              Dan
+               
+              Abramov
+            </td>
+            <td>
+              <a
+                href="/users/1/edit"
+                onClick={[Function]}
+              >
+                Edit
+              </a>
+                |  
+              <button
+                className="users-list__delete-user"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      className="ui-pagination "
+    >
+      <ol
+        className="ui-pagination__list"
+      />
+    </div>
+  </section>,
+]
+`;

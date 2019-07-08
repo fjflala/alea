@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> should correctly render 1`] = `
+<div
+  className="ui-pagination custom-class"
+>
+  <ol
+    className="ui-pagination__list"
+  />
+</div>
+`;

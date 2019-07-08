@@ -1,0 +1,16 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": [
+    "airbnb"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "comma-dangle": [2, "always-multiline"],
+    "max-len": ["error", 120],
+    "no-unused-vars": ["error", { "args": "none" }],
+    "react/prop-types": "off",
+    "react/button-has-type": "off"
+  }
+}

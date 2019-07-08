@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should correctly render 1`] = `
+<header
+  className="ui-header"
+>
+  <figure>
+    <img
+      alt="Alea"
+      src="https://www.alea.com/wp-content/themes/alea/library/images/logo-alea.svg"
+    />
+  </figure>
+</header>
+`;

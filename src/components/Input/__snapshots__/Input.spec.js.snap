@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> should correctly render 1`] = `
+<input
+  className="ui-input custom-class"
+  onChange={[MockFunction]}
+  onFocus={[MockFunction]}
+  type="text"
+/>
+`;

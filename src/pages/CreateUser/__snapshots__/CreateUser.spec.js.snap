@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreateUser /> should correctly render 1`] = `
+Array [
+  <header
+    className="ui-header"
+  >
+    <figure>
+      <img
+        alt="Alea"
+        src="https://www.alea.com/wp-content/themes/alea/library/images/logo-alea.svg"
+      />
+    </figure>
+  </header>,
+  <section
+    className="create-user"
+  >
+    <header>
+      <h1>
+        Create User
+      </h1>
+    </header>
+    <div
+      className="ui-card create-user__card"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          className="ui-input "
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Name"
+          type="text"
+          value=""
+        />
+        <input
+          className="ui-input "
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Job"
+          type="text"
+          value=""
+        />
+        <a
+          className="ui-button ui-button--secondary create-user__cancel-button"
+          href="/users"
+          onClick={[Function]}
+        >
+          Cancel
+        </a>
+        <button
+          className="ui-button ui-button--primary create-user__create-button"
+          onClick={[Function]}
+          type="submit"
+        >
+          Create
+        </button>
+      </form>
+    </div>
+  </section>,
+]
+`;

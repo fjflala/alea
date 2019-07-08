@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Login /> should correctly render 1`] = `
+<section
+  className="login"
+>
+  <div
+    className="ui-card login__card"
+  >
+    <img
+      alt="Alea"
+      className="login__alea-logo"
+      src="https://www.alea.com/wp-content/themes/alea/library/images/logo-alea.svg"
+    />
+    <form
+      className="login__form"
+      onSubmit={[Function]}
+    >
+      <input
+        className="ui-input "
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="Email"
+        type="text"
+      />
+      <input
+        className="ui-input "
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="Password"
+        type="password"
+      />
+      <button
+        className="ui-button ui-button--primary login__button"
+        onClick={[Function]}
+        type="submit"
+      >
+        Login
+      </button>
+    </form>
+    <p>
+      Or signup, click  
+      <a
+        href="/signup"
+        onClick={[Function]}
+      >
+        here!
+      </a>
+    </p>
+  </div>
+  <div
+    className="ui-card login__card"
+  >
+    <h4>
+      Mocked Values
+    </h4>
+    <strong>
+      User:
+    </strong>
+     eve.holt@reqres.in
+    <br />
+    <strong>
+      Password:
+    </strong>
+     cityslicka
+  </div>
+</section>
+`;

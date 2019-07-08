@@ -1,0 +1,64 @@
+.users-list {
+  height: 100%;
+  background-color: #eee;
+  padding: 32px;
+
+  &__table-container {
+    padding: 0;
+    margin: 32px 0;
+  }
+  
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  &__table thead tr th {
+    text-align: left;
+    padding: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+    background-color: #eee;
+    color: #333;
+  }
+
+  &__table tr td {
+    border-collapse: collapse;
+    border-bottom: 1px solid #ddd;
+    padding: 16px;
+  }
+
+  &__table tr:hover td {
+    background-color: #eee;
+  }
+
+  &__avatar {
+    max-width: 48px;
+    border-radius: 100%;
+  }
+
+  &__button {
+    height: 40px;
+    max-width: 150px;
+    padding: 11px;
+    font-size: 16px;
+  }
+
+  &__header {
+    display: flex;
+    .users-list__button,
+    h1 {
+      display: inline-flex;
+    }
+
+    h1 {
+      width: 100%;
+    }
+
+    .users-list__button {
+      padding-left: 30px;
+    }
+  }
+}

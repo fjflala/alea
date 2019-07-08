@@ -1,0 +1,29 @@
+.signup {
+  padding: 32px;
+  height: 100%;
+  background-color: rgb(245,85,46);
+
+  &__card {
+    max-width: 480px;
+    margin: 32px auto;
+  }
+
+  &__alea-logo {
+    display: block;
+    max-width: 80px;
+    text-align: center;
+    margin: 16px auto;
+  }
+
+  &__form {
+    text-align: center;
+  }
+
+  &__button {
+    margin: 16px auto;
+  }
+
+  &__error-message {
+    color: red;
+  }
+}

@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditUser /> should correctly render 1`] = `
+Array [
+  <header
+    className="ui-header"
+  >
+    <figure>
+      <img
+        alt="Alea"
+        src="https://www.alea.com/wp-content/themes/alea/library/images/logo-alea.svg"
+      />
+    </figure>
+  </header>,
+  <section
+    className="edit-user"
+  >
+    <header>
+      <h1>
+        Edit User Page
+      </h1>
+    </header>
+    <div
+      className="ui-card edit-user__card"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <img
+          alt=""
+          src=""
+        />
+        <br />
+        <input
+          className="ui-input "
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Email"
+          type="text"
+          value=""
+        />
+        <br />
+        <input
+          className="ui-input "
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="First Name"
+          type="text"
+          value=""
+        />
+        <br />
+        <input
+          className="ui-input "
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Last Name"
+          type="text"
+          value=""
+        />
+        <br />
+        <a
+          className="ui-button ui-button--secondary edit-user__cancel-button"
+          href="/users"
+          onClick={[Function]}
+        >
+          Cancel
+        </a>
+        <button
+          className="ui-button ui-button--primary edit-user__save-button"
+          onClick={[Function]}
+          type="submit"
+        >
+          Save
+        </button>
+      </form>
+    </div>
+  </section>,
+]
+`;
